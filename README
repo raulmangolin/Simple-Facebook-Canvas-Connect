@@ -10,3 +10,6 @@ This repository contains the open source PHP SDK that allows you to utilize the
 above on your website. Except as otherwise noted, the Facebook PHP SDK
 is licensed under the Apache Licence, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+===============
+Generally do not use underscores in variables, but I used to be as readable as possible =).
