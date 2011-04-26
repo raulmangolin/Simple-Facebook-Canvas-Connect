@@ -1,0 +1,12 @@
+Simple Facebook Canvas Connect
+================
+
+The [Facebook Platform](http://developers.facebook.com/) is
+a set of APIs that make your application more social. Read more about
+[integrating Facebook with your web site](http://developers.facebook.com/docs/guides/web)
+on the Facebook developer site.
+
+This repository contains the open source PHP SDK that allows you to utilize the
+above on your website. Except as otherwise noted, the Facebook PHP SDK
+is licensed under the Apache Licence, Version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0.html)
