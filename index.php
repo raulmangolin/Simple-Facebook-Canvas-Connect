@@ -59,7 +59,7 @@
 	$facebook_login_url = $facebook->getLoginUrl(array('req_perms' => $facebook_permissions), $facebook_canvas_page)
 	
 	//Checks if the user is authenticated. If not, go to the login.
-	if(isset($facebook_session['oauth_token']))
+	if(!isset($facebook_session['oauth_token']))
 	{
 		echo '<script type="text/javascript">';
 		echo '	this.top.location.href="' . $facebook_login_url . '";';
