@@ -56,7 +56,7 @@
 	$facebook_permissions = 'user_about_me,publish_stream';
 
 	//Set login URL
-	$facebook_login_url = $facebook->getLoginUrl(array('req_perms' => $facebook_permissions), $facebook_canvas_page)
+	$facebook_login_url = $facebook->getLoginUrl(array('req_perms' => $facebook_permissions), $facebook_canvas_page);
 	
 	//Checks if the user is authenticated. If not, go to the login.
 	if(!isset($facebook_session['oauth_token']))
