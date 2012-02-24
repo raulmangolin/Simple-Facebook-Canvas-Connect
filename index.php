@@ -61,9 +61,7 @@
 	//Checks if the user is authenticated. If not, go to the login.
 	if(!isset($facebook_session['oauth_token']))
 	{
-		echo '<script type="text/javascript">';
-		echo '	this.top.location.href="' . $facebook_login_url . '";';
-		echo '</script>';
+		header("Location: ".$facebook_login_url);
 	}
 	else
 	{
