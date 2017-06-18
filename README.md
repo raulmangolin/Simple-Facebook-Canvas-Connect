@@ -1,7 +1,6 @@
 `This is no longer supported, please consider using news Facebook PHP SDK`
 
-Simple Facebook Canvas Connect
-================
+# Simple Facebook Canvas Connect
 
 The [Facebook Platform](http://developers.facebook.com/) is
 a set of APIs that make your application more social. Read more about
@@ -13,5 +12,6 @@ above on your website. Except as otherwise noted, the Facebook PHP SDK
 is licensed under the Apache Licence, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0.html)
 
-===============
-Generally do not use underscores in variables, but I used to be as readable as possible =).
+
+---
+On a daily basis I do not use underscores in variables, but I write in this way to be as readable as possible =).
