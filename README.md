@@ -1,4 +1,4 @@
-`This is no longer supported, please consider using news Facebook PHP SDK`
+`This is no longer supported, please consider using new Facebook PHP SDK`
 
 # Simple Facebook Canvas Connect
 
